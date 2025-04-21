@@ -5,7 +5,7 @@ import joblib
 
 # Load model, scaler, and feature names
 model = joblib.load("xgb.pkl")
-scaler = joblib.load("scaler.pkl")
+scaler = joblib.load("scaler (3).pkl")
 feature_names = joblib.load("feature_names.pkl")
 
 # Page configuration and styling
